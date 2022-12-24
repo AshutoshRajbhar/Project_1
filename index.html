@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+        body {
+            font-family: 'Ubuntu', sans-serif;
+            color: rgb(19, 126, 126);
+            background-image: url("back2.jpg");
+            background-size: cover;
+            /* background-size: 4933px 3289px;
+            /* background-position: center; */
+            /* background-size: 772px 669px; */
+            /* background-repeat: no-repeat; */
+            /* width: 400px;
+            height: 400px; */
+
+            /* background-size: 772px 669px;
+            background-position: center;
+        background-repeat: no-repeat; */
+
+        }
+
+        .left {
+            /* border: 2px solid yellow; */
+            display: inline-block;
+            position: absolute;
+            left: 45px;
+            top: 20px;
+            line-height: 16px;
+        }
+
+        .mid {
+            display: block;
+            width:945px;
+            /* border: 2px solid yellow; */
+            margin: 50px auto;
+        }
+
+        .right {
+            /* border: 2px solid yellow; */
+            display: inline-block;
+            position: absolute;
+            right: 10px;
+            top: 20px
+        }
+
+        .navbar {
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        .navbar li {
+            display: inline-block;
+            /* text-decoration: none; */
+            font-size: 25px;
+
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            padding: 34px 33px;
+            /* color: rgb(121 177 227);
+            font-weight: bolder; */
+            color: rgb(116 139 255);
+    font-size: xx-large;
+    font-weight: bolder;
+
+
+        }
+
+        .navbar li a:hover {
+            text-decoration: underline;
+            color: gray;
+        }
+
+        .left img {
+            width: 134px;
+
+
+
+        }
+
+        .left div {
+            /* position: absolute; */
+            text-align: center;
+            line-height: 23px;
+            /* font-size: large; */
+            font-weight: bolder;
+            color: aliceblue;
+        }
+
+        .btn {
+            font-family: 'Ubuntu', sans-serif;
+            margin: 2px;
+            padding: 2px 10px;
+            /* border: 2px solid black; */
+            border-radius: 13px;
+            cursor: pointer;
+            font-weight: bolder;
+        }
+
+        .btn:hover {
+            background-color: gray;
+        }
+
+        .left img:hover {
+            cursor: pointer;
+        }
+
+        .container {
+            /* border: 2px solid yellow; */
+            /* border: 2px solid yellow; */
+            margin: 121px 173px;
+            padding: 25px 60px;
+            border-radius: 2px;
+            width: 67%;
+
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            margin: 11px auto;
+            border: 2px solid red;
+            padding: 4px 90px;
+            border-radius: 12px;
+        }
+
+        .container h1 {
+            text-align: center;
+            font-size: 53px;
+            font-weight: bolder;
+            color: #40fafa;
+        }
+
+        .container button {
+            /* display: block;
+            width: 21px;
+            margin: auto; */
+            display: block;
+            width: 119px;
+            margin: 34px auto;
+            font-weight: bolder;
+            padding: 11px;
+            background-color: green;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="left">
+        <!-- Left -->
+        <img src="logo.png" alt="LOGO">
+        <div>
+            Ashu's Fitness Centre
+        </div>
+    </div>
+    <div class="mid">
+        <!-- mid -->
+        <ul class="navbar">
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#">Membership</a></li>
+            <li> <a href="#">User Login</a></li>
+            <li> <a href="#">About Us</a></li>
+        </ul>
+    </div>
+    <div class="right">
+        <!-- right -->
+        <button class="btn">Contact Us</button>
+    </div>
+    <div class="container">
+        <!-- container -->
+        <h1> Join the Gym</h1>
+        <form action="">
+
+            <div class="form-group">
+                <input type="text" name="Name" id="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="Name" id="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="Name" id="" placeholder="Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="Name" id="" placeholder="Contact Number">
+            </div>
+        </form>
+
+        <button class="btn">Submit</button>
+
+    </div>
+</body>
+
+</html>
